@@ -4,9 +4,6 @@ let CONFIG = {}
 
 CONFIG.SALT_ROUNDS = +process.env.SALT_ROUNDS
 CONFIG.PORT = process.env.PORT
-
-CONFIG.STATIC_PATH = "/public/images/"
-CONFIG.DEFAULT_PROFILE_URL = "https://placehold.co/200x200"
 CONFIG.REACT_BASE_URL = "http://localhost:5173"
 
 if (process.env.NODE_ENV == 'development') {
