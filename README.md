@@ -27,25 +27,23 @@ A full-stack MERN application for managing tasks with user authentication.
 
 ## Project Structure
 
-Task-management/
-├── client/
-│   └── src/
-│       ├── components/
-│       ├── pages/
-│       ├── services/
-│       └── App.jsx
-│
-└── server/
-├── src/
-│   ├── config/
-│   ├── controllers/
-│   ├── middlewares/
-│   ├── models/
-│   ├── routes/
-│   ├── utils/
+│── client
+│   │── src
+│   │   │── components
+│   │   │── pages
+│   │   │── services
+│   │   └── App.jsx
+│   │
+└── server
+│── src
+│   │── config
+│   │── controllers
+│   │── middlewares
+│   │── models
+│   │── routes
+│   │── utils
 │   └── app.js
 └── server.js
-
 ## Setup Instructions
 
 ### Prerequisites
