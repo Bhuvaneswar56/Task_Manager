@@ -25,25 +25,25 @@ A full-stack MERN application for managing tasks with user authentication.
 - JWT Authentication
 - bcrypt
 
-## Project Structure
+Project Structure:
 
-│── client
-│   │── src
-│   │   │── components
-│   │   │── pages
-│   │   │── services
-│   │   └── App.jsx
-│   │
-└── server
-│── src
-│   │── config
-│   │── controllers
-│   │── middlewares
-│   │── models
-│   │── routes
-│   │── utils
-│   └── app.js
-└── server.js
+client/
+  src/
+    components/
+    pages/
+    services/
+    App.jsx
+
+server/
+  src/
+    config/
+    controllers/
+    middlewares/
+    models/
+    routes/
+    utils/
+    app.js
+  server.js
 ## Setup Instructions
 
 ### Prerequisites
